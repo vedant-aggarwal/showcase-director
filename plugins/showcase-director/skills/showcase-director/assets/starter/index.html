@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=__WIDTH__,height=__HEIGHT__">
+  <script src="assets/gsap.min.js"></script>
+  <style>
+    *{box-sizing:border-box}html,body{margin:0;width:__WIDTH__px;height:__HEIGHT__px;overflow:hidden;font-family:Arial,sans-serif}
+    #stage{position:relative;width:__WIDTH__px;height:__HEIGHT__px}
+    .canvas{position:absolute;inset:0;background:#f5f5f7;color:#1d1d1f;display:flex;flex-direction:column;justify-content:center;padding:8%;gap:30px}
+    p,h1{margin:0}p{font-size:30px;line-height:1.4}h1{font-size:90px;line-height:1.04;letter-spacing:-3px;max-width:900px}
+  </style>
+</head>
+<body>
+  <div id="stage" data-composition-id="__ID__" data-start="0" data-duration="5" data-width="__WIDTH__" data-height="__HEIGHT__">
+    <section id="starter-canvas" class="canvas clip" data-start="0" data-duration="5" data-track-index="0">
+      <p>SHOWCASE DIRECTOR · STARTER</p><h1 id="starter-title">Your product. One clear story.</h1><p>Placeholder — fill the brief and storyboard before production.</p>
+    </section>
+  </div>
+  <script>window.__timelines=window.__timelines||{};window.__timelines['__ID__']=gsap.timeline({paused:true}).from('#starter-title',{opacity:0,y:16,duration:0.8,ease:'power3.out'},0).to({},{duration:4.2},0.8);</script>
+</body>
+</html>

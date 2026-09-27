@@ -1,0 +1,22 @@
+{
+  "name": "showcase-director",
+  "version": "0.1.0",
+  "description": "Create product showcase films with evidence-led stories, Apple-inspired craft, and seekable Hyperframes scenes.",
+  "author": {
+    "name": "Vedant Aggarwal",
+    "url": "https://github.com/vedant-aggarwal"
+  },
+  "repository": "https://github.com/vedant-aggarwal/showcase-director",
+  "homepage": "https://github.com/vedant-aggarwal/showcase-director#readme",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Showcase Director",
+    "shortDescription": "Direct product films, scene by scene.",
+    "longDescription": "Turn a product brief into an evidence-led story, reviewable storyboard, polished motion study, and verified Hyperframes film. Includes Apple-inspired design guidance and optional adapters for your own design skills.",
+    "developerName": "Vedant Aggarwal",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": ["Create a product showcase with Apple-inspired craft.", "Refine these two scenes and apply their quality to the rest."]
+  }
+}

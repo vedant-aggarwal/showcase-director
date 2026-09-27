@@ -1,0 +1,6 @@
+node_modules/
+.env*
+.hyperframes/
+renders/
+snapshots/
+assets/gsap.min.js

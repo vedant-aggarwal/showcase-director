@@ -1,0 +1,8 @@
+# Sources and attribution
+
+- AI Jason, [GPT 6 + Hyperframe = Crazy combo for expert-level videos](https://www.youtube.com/watch?v=8pRe7kkPi6g), September 23, 2026. The public transcript informed the iterative directing structure. Relevant portions: 06:00–09:53 story and layout; 14:14–16:47 saved feedback and scene-level work; 17:02–19:15 camera continuity and establishing a quality bar; 20:40–24:51 explicit states and detail iteration. Creator performance claims are not reproduced as verified benchmarks. Research used the transcript; a separate Gemini visual-analysis attempt returned no response.
+- [Hyperframes](https://github.com/heygen-com/hyperframes): external rendering framework, installed separately; native storyboard/comment conventions checked against version 0.8.33.
+- Apple, [Designing Fluid Interfaces, WWDC 2018](https://developer.apple.com/videos/play/wwdc2018/803/) and [Human Interface Guidelines: Motion](https://developer.apple.com/design/human-interface-guidelines/motion): conceptual references for responsive, spatially coherent interaction. The plugin's film timing values are its own recommendations, not official Apple specifications.
+- [Make Interfaces Feel Better](https://github.com/jakubkrehel/make-interfaces-feel-better): optional interface-polish reference.
+
+The author also consulted locally installed Apple design, product-proof and cinematic-storytelling skills. Their text and assets are not redistributed. The optional adapter reads user-selected local material at execution time and respects its license. Scroll-based references must be adapted to a deterministic timeline before video rendering.

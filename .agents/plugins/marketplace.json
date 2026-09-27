@@ -1,0 +1,20 @@
+{
+  "name": "showcase-director",
+  "interface": {
+    "displayName": "Showcase Director"
+  },
+  "plugins": [
+    {
+      "name": "showcase-director",
+      "source": {
+        "source": "local",
+        "path": "./plugins/showcase-director"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
