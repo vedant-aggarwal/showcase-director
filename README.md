@@ -40,7 +40,7 @@ npm run preview
 
 Use `--aspect portrait` for a vertical deliverable. The starter is explicitly unfinished: replace the placeholder with the product, source-backed claims, and actual scenes. It does not contain a sample customer database or fabricated results. New projects refuse to overwrite an existing directory.
 
-The generated project includes `BRIEF.md`, `STORYBOARD.md`, `DESIGN.md`, `EVIDENCE.json`, `FEEDBACK.md` and `VERIFIED.md`. Its `npm run check` runs Hyperframes' combined static/runtime/layout gate. Use `npm run snapshot`, inspect the actual images, and review playback before export. Technical checks do not judge creative quality.
+The generated project includes `BRIEF.md`, `STORYLINE.md`, `STORYBOARD.md`, `DESIGN.md`, `EVIDENCE.json`, `FEEDBACK.md` and `VERIFIED.md`. Its `npm run check` runs Hyperframes' combined static/runtime/layout gate. Use `npm run snapshot`, inspect the actual images, and review playback before export. Technical checks do not judge creative quality.
 
 ## How directing works
 
@@ -51,6 +51,8 @@ The generated project includes `BRIEF.md`, `STORYBOARD.md`, `DESIGN.md`, `EVIDEN
 5. Revise one or two scenes at a time. Retain camera scale across connected actions.
 6. Apply the proven treatment to subsequent scenes; add music only when it helps.
 7. Check, inspect, play, export, and verify the resulting file.
+
+**Default creative checkpoints:** approve the storyline, then the static storyboard, then a one- or two-scene motion study, then review the complete video before export. Asking for a showcase begins this sequence; it does not silently approve every creative choice. Explicit autonomous-production instructions can skip checkpoints, and prior approvals are never requested again.
 
 In Studio, save frame comments and paste its copied message into the agent. This is a file-based handoff, **not an automatic watcher**. The feedback helper shows the exact saved context and a content hash:
 

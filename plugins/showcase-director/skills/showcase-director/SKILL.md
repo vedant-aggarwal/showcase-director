@@ -29,9 +29,13 @@ Use public research or authorized sanitized UI captures. Never put private sourc
 
 ## Story → layouts → two-scene quality bar
 
+Use distinct creative checkpoints by default: storyline approval → static storyboard approval → first-scene motion approval → full video review → export. A general request to build a showcase starts this process; it does not approve a particular story or visual treatment. Only skip checkpoints when the user explicitly asks for autonomous production or has already approved that stage. Never ask the same approval twice.
+
+First create `STORYLINE.md` with the audience, main takeaway, narrative beats, claims, and ending. Show the proposed story in plain language and wait for its approval before designing frames. Research and technical setup may continue while it is under review.
+
 Follow [the production workflow](references/workflow.md). Keep a single native `STORYBOARD.md`: one `## Frame N — Title` section per scene, stable scene ID, duration, source path, status, focal action, exact copy, evidence IDs and transition plan. A scene should develop through a visible cause and result, not display a headline beside a motionless card.
 
-Build static keyframes before full animation. Review story and layout first. When approval is needed, present a concrete reviewable result; existing approval or a request for autonomous final production carries forward.
+After storyline approval, build static keyframes and exact scene copy. Show the storyboard for approval before animating. Then present the first one or two animated scenes as a motion study; wait for approval before extending that treatment to the rest. Present a concrete reviewable result at every checkpoint. Existing approval or an explicit request for autonomous production carries forward.
 
 Polish the first one or two scenes as the visual benchmark. Record tokens and camera treatment in `DESIGN.md`; then apply them to subsequent scenes. Keep connected product actions in the same spatial world, pan at a consistent scale, and zoom only to improve legibility. Reuse approved components when authorized; respect a request to start from scratch.
 

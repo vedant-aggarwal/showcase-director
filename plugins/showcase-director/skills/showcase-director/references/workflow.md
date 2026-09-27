@@ -6,6 +6,8 @@ Write `BRIEF.md` with audience, central outcome, destination, aspect, duration, 
 
 ## 2. Story and stills
 
+First write `STORYLINE.md` and present the narrative for review. Do not design the storyboard until the storyline is approved, unless the user explicitly delegated autonomous creative decisions. `STORYLINE.md` records the approved message and narrative; `STORYBOARD.md` later translates it into individual visual scenes. They have separate jobs.
+
 Use a short arc: friction → product action → visible result → memorable takeaway. This is a starting structure, not four compulsory title cards. Get into the product quickly. Write exact on-screen copy; avoid abstract feature lists.
 
 Native storyboard format:
@@ -32,9 +34,13 @@ audience: "Specific product users"
 
 Use `outline` for plans, `built` for still layouts, and `animated` only when motion exists. Verify the local CLI and native storyboard UI; don't invent a storyboard command. Preserve stable source paths so feedback stays attached.
 
+Present the static storyboard for approval before animation. Technical preparation does not count as creative approval.
+
 ## 3. Establish the standard
 
 Produce the first two scenes with final typography, UI fidelity, light/material treatment and camera framing. Inspect their midpoints and transitions. Resolve tiny text, oversized margins, abrupt camera jumps and distracting details before replicating them. Save the decisions in `DESIGN.md`.
+
+Show the motion study and wait for approval before completing the remaining scenes, unless autonomous production was explicitly requested.
 
 ## 4. Complete and refine
 
