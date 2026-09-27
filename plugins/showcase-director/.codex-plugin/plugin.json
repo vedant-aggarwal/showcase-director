@@ -1,6 +1,6 @@
 {
   "name": "showcase-director",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Create product showcase films with evidence-led stories, Apple-inspired craft, and seekable Hyperframes scenes.",
   "author": {
     "name": "Vedant Aggarwal",
@@ -17,6 +17,9 @@
     "developerName": "Vedant Aggarwal",
     "category": "Productivity",
     "capabilities": [],
-    "defaultPrompt": ["Create a product showcase with Apple-inspired craft.", "Refine these two scenes and apply their quality to the rest."]
+    "defaultPrompt": [
+      "Create a product showcase with Apple-inspired craft.",
+      "Refine these two scenes and apply their quality to the rest."
+    ]
   }
 }

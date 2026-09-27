@@ -21,6 +21,14 @@ node <skill-dir>/scripts/scaffold.mjs <project-dir> --aspect landscape
 
 This creates a placeholder, not a finished storyboard. Install its pinned dependencies when needed, then inspect `hyperframes doctor --json`. Distinguish required render dependencies from optional transcription, TTS, music generation and Docker. No external account is necessary for a silent local film. Do not install every optional backend.
 
+## Product understanding before storyline
+
+Do not choose the first easy-to-demonstrate feature as the product's central story. Retrieve the owner's positioning decisions, inspect the current main workflows, and identify the strongest customer benefit before writing narrative beats. Create `PRODUCT-THESIS.md` with the intended audience, main product promise, 3–5 supporting capabilities, the strongest demonstrable moment, and why that moment represents the whole product. A supporting utility must not accidentally become the entire USP. Avoid unsupported claims of market uniqueness.
+
+Map each benefit to an existing product screen and an observable cause → action → result. Distinguish production behavior, source implementation, sample simulation, and roadmap concepts. Inspect the actual UI visually: filenames, marketing copy, and feature lists alone are not visual evidence. Prefer the application's own components with safe fixture data or authorized sanitized captures; preserve its layout, identity, and interactions. Apple-inspired direction applies to film presentation and motion, not a replacement interface.
+
+When plain narrative beats do not convey the experience, accompany the proposed story with an annotated product reference board using existing screens. Clearly distinguish this research board from designed storyboard frames or an approved film. Make the principal demonstration, broader product context, and intended feeling concrete before asking for story approval.
+
 ## Evidence before persuasion
 
 Write `EVIDENCE.json`: each marketed capability or measurable claim needs a source, observed date, verification level and permitted wording. Use `live`, `source`, `sample`, `planned`, or `unverified`. Source inspection supports an implementation claim, not proof of live behavior. Planned or unverified capabilities stay visibly qualified or are omitted. Sample contacts, messages and results stay labeled in the film. No invented metrics, customer logos, prices, performance or benchmarks.

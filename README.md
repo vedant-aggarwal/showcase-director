@@ -52,6 +52,8 @@ The generated project includes `BRIEF.md`, `STORYLINE.md`, `STORYBOARD.md`, `DES
 6. Apply the proven treatment to subsequent scenes; add music only when it helps.
 7. Check, inspect, play, export, and verify the resulting file.
 
+**Product discovery first:** recover the product positioning, inspect its real UI, map the main benefit to a concrete demonstration, and write `PRODUCT-THESIS.md`. Use an annotated reference board when narrative beats alone cannot communicate the experience. Preserve the actual product interface.
+
 **Default creative checkpoints:** approve the storyline, then the static storyboard, then a one- or two-scene motion study, then review the complete video before export. Asking for a showcase begins this sequence; it does not silently approve every creative choice. Explicit autonomous-production instructions can skip checkpoints, and prior approvals are never requested again.
 
 In Studio, save frame comments and paste its copied message into the agent. This is a file-based handoff, **not an automatic watcher**. The feedback helper shows the exact saved context and a content hash:
